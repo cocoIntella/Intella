@@ -11,10 +11,6 @@
 
 ## 正掃 <a id="zheng-sao"></a>
 
-{% hint style="info" %}
-發起支付寶正掃交易‌
-{% endhint %}
-
 #### Request <a id="request"></a>
 
 | 參數 | 型態 | 必填 | 備註 |
@@ -105,10 +101,6 @@ Response
 ‌
 
 ## 條型碼/反掃 <a id="tiao-xing-ma-fan-sao"></a>
-
-{% hint style="info" %}
-發起條紋碼/反掃交易‌
-{% endhint %}
 
 Request
 
@@ -208,10 +200,6 @@ Response
 
 ## 查詢 <a id="cha-xun"></a>
 
-{% hint style="info" %}
-發起查詢‌
-{% endhint %}
-
 Request
 
 | 參數 | 型態 | 必填 | 備註 |
@@ -287,10 +275,6 @@ Response
 
 ## 退款 <a id="tui-kuan"></a>
 
-{% hint style="info" %}
-發起退款‌
-{% endhint %}
-
 Request
 
 | 參數 | 型態 | 必填 | 備註 |
@@ -300,7 +284,7 @@ Request
 | createTime | String | Y | 提交時間 ex:20181226093032 |
 | request | String | Y | ​ |
 | outTradeNo | String | Y | 訂單號 |
-| partnerRefundId | String | Y | 退款商戶 r2221111901 |
+| partnerRefundId | String | Y | 退款商戶 ex:r2221111901 |
 | refundAmount | String | Y | 退款金額 單位分 |
 | currency | String | Y | 退款幣別 |
 
@@ -365,6 +349,8 @@ Response
 
 ‌
 
-支付寶相關參數詳細說明,請查官方正式文件說明  
+支付寶相關參數詳細說明,請查官方正式文件說明
+
+[https://global.alipay.com/doc/global/offline\_maintain](https://global.alipay.com/doc/global/offline_maintain)  
 
 
