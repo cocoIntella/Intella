@@ -2,7 +2,7 @@
 
 ##  提交地址 <a id="ti-jiao-di-zhi"></a>
 
-‌
+‌   提交方式：Content-Type: application/json;charset=utf-8　POST
 
 * 測試機提交地址:[https://o2o-t.scsb.com.t](https://o2o-t.scsb.com.tw/alipay/api)w/[alipay/api](https://o2o-t.scsb.com.tw/alipay/api) ​
 * 正式機提交地址:[https://o2o.scsb.com.tw/alipay/api](https://o2o-t.scsb.com.tw/alipay/api) ​
